@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[](https://drive.google.com/file/d/1e4LiP0vWVzAlg7CC3NtI0sdowhPy1Xu-/view?usp=drive_link)
+[](D:\USUARIO\Downloads\screenshot.png)
 
 ### Links
 
