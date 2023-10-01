@@ -12,9 +12,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -24,12 +22,11 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](D:\USUARIO\Downloads/screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -41,8 +38,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Project]([https://your-solution-url.com](https://github.com/victoriafloresdev/homepage/))
+- Live Site URL: [GitHub Pages](https://victoriafloresdev.github.io/homepage/)
 
 ## My process
 
@@ -52,60 +49,56 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+During the development of this project, I had the opportunity to explore the world of web development while creating a homepage for a news website. Here are some of the major takeaways from this experience:
 
-To see how you can add code snippets, see below:
+### 1. Planning and Structuring HTML
+
+I realized the significance of planning and structuring HTML documents before diving into CSS. A well-organized HTML layout makes it easier to apply styling and maintain consistency across the website. For instance, I structured the navigation menu using semantic HTML tags like `<nav>` and `<ul>` for better accessibility and SEO.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <!-- Other menu items -->
+  </ul>
+</nav>
 ```
+
+### 2. CSS Mastery and Layout Techniques
+
+My CSS skills improved significantly during this project. I learned to create responsive layouts using CSS Grid and Flexbox. These techniques allowed me to align and position elements with precision. For example, I used CSS Grid to structure the main news section, achieving a balanced and visually appealing layout.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.main-news {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* More CSS properties */
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### 3. Unit of Measurement and Responsiveness
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+While working on the project, I realized the importance of responsive design. I intend to explore relative units like 'em' to ensure better adaptability to various screen sizes. This change can enhance the user experience and ensure the site looks great on different devices.
+
+### 4. Problem-Solving and Persistence
+
+One of the key takeaways from this project is the value of problem-solving and persistence. I encountered challenges along the way, but through research and experimentation, I overcame them. This experience reinforced my ability to troubleshoot and find creative solutions.
+
+### 5. Code Organization and Best Practices
+
+I applied good coding practices, such as using external CSS files and proper indentation, to maintain a clean and organized codebase. This ensures better code readability and easier maintenance in the future.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+This project has been a valuable learning journey, helping me build a strong foundation in HTML and CSS while also cultivating problem-solving skills. I look foward to improve my skills in this area, specially in regards to using responsive units of measurements and the use of flex-box
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Victoria Flores](https://github.com/victoriafloresdev)
+- Twitter - [@vicfloresdev](https://twitter.com/vicfloresdev)
+- Dev.to - [@victoriafloresdev](https://dev.to/victoriafloresdev)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
