@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[](D:\USUARIO\Downloads\screenshot.png)
+![](https://ibb.co/Kjtyd8Z)
 
 ### Links
 
